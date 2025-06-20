@@ -1,0 +1,53 @@
+# docker-compose.prod.yml
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    environment:
+      - ENVIRONMENT=production
+      - DATABASE_URL=postgresql://financebot:${DB_PASSWORD}@postgres:5432/financebot
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: financebot
+      POSTGRES_USER: financebot
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backups:/backups
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes --requirepass ${REDIS_PASSWORD}
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl:/etc/ssl
+    depends_on:
+      - bot
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:

@@ -1,0 +1,78 @@
+MIT License
+
+Copyright (c) 2025 Finance Bot Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+# TERMOS ADICIONAIS ESPECÍFICOS PARA FINANÇAS
+
+Este software é destinado exclusivamente para fins educacionais e de 
+gerenciamento pessoal de finanças. 
+
+## ISENÇÃO DE RESPONSABILIDADE FINANCEIRA
+
+1. **Não é aconselhamento financeiro**: Este software não fornece 
+   aconselhamento financeiro, de investimento, fiscal ou jurídico. 
+   Todas as decisões financeiras são de responsabilidade exclusiva 
+   do usuário.
+
+2. **Precisão dos dados**: Embora seja feito todo esforço para garantir 
+   a precisão dos cálculos, os usuários devem verificar todas as 
+   informações antes de tomar decisões financeiras.
+
+3. **Dados de mercado**: Qualquer informação de mercado ou cotações 
+   fornecidas são apenas para fins informativos e podem não estar 
+   atualizadas ou ser precisas.
+
+4. **Segurança**: Os usuários são responsáveis por manter suas 
+   informações financeiras seguras e não compartilhar dados sensíveis.
+
+5. **Backup**: É recomendado que os usuários façam backup regular 
+   de seus dados financeiros.
+
+## USO COMERCIAL
+
+Para uso comercial deste software (incluindo mas não se limitando a 
+revenda, serviços pagos baseados neste código, ou integração em 
+produtos comerciais), é requerida permissão explícita dos autores.
+
+Entre em contato através de: [seu-email@dominio.com]
+
+## CONTRIBUIÇÕES
+
+Ao contribuir para este projeto, você concorda que suas contribuições 
+serão licenciadas sob os mesmos termos desta licença MIT.
+
+## MARCAS REGISTRADAS
+
+"Finance Bot" e logos relacionados são marcas dos desenvolvedores 
+originais. O uso comercial de tais marcas requer permissão separada.
+
+## JURISDIÇÃO
+
+Esta licença será regida pelas leis do Brasil. Qualquer disputa 
+relacionada a este software será resolvida nos tribunais competentes 
+do Brasil.
+
+---
+
+Para mais informações sobre a Licença MIT original, visite:
+https://opensource.org/licenses/MIT
